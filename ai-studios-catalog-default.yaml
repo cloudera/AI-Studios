@@ -107,3 +107,29 @@ entries:
     git_ref: "main"
     is_prototype: true
     is_new: true
+
+
+  - title: ML Monitoring Studio
+    label: monitoring-studio
+    short_description: |
+      Access your model metrics from across your Studios in one place.
+    long_description: |
+      ML Monitoring Studio is a no-code application built on the Cloudera platform that integrates with your existing AI Studios to provide visualization of your model metrics.           
+      ---------------------------
+      IMPORTANT: Please read the following before proceeding.  This AMP includes or otherwise depends on certain third party software packages. Information about such third party software packages are made available in the notice file associated with this AMP. By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites. For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms. If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP. By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.
+    long_description_html: |
+      ML Monitoring Studio is a no-code application built on the Cloudera platform that integrates with your existing AI Studios to provide visualization of your model metrics.
+      <div style="margin-top:10px"><b>IMPORTANT:</b> Please read the following before proceeding.</div>
+      <div style="margin-top:10px">This AMP includes or otherwise depends on certain third party software packages.  Information about such third party software packages are made available in the notice file associated with this AMP.  By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites.  For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms.</div>
+      <div style="margin-top:10px">If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP.  By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.</div>
+    image_path: >-
+      https://raw.githubusercontent.com/cloudera/AI-Studios/refs/heads/master/images/monitoring-studio-banner.svg
+    tags:
+      - LLM
+      - RAG
+      - AI
+      - Monitoring
+    git_url: "https://github.com/cloudera/CML_AMP_RAG_Monitoring"
+    git_ref: "release/1"
+    is_prototype: true
+    is_new: true
